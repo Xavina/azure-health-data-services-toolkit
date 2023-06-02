@@ -38,7 +38,7 @@ param logAnalyticsName string = '${prefixName}-la'
 @description('Location to deploy resources')
 param location string = resourceGroup().location
 
-@description('Location to deploy resources')
+@description('Tags for the resources')
 param appTags object = {}
 
 @description('ID of principals to give FHIR Contributor on the FHIR service')
